@@ -1,6 +1,8 @@
 
 package com.mycompany.proyectofigurasgeometricas;
-
+/**
+ * Complejidad temporal: O(1) Tiempo constante.
+ */
 import static java.lang.Math.PI;
 
 public class Circulo extends FiguraGeometrica {

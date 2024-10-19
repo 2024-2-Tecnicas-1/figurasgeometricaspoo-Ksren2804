@@ -1,6 +1,8 @@
 
 package com.mycompany.proyectofigurasgeometricas;
-
+/**
+ * Complejidad temporal: O(1) Tiempo constante.
+ */
 public class Rectangulo extends FiguraGeometrica{
    
    //atributos
