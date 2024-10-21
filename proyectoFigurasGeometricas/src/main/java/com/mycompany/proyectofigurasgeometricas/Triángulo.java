@@ -3,7 +3,7 @@ package com.mycompany.proyectofigurasgeometricas;
 /**
  * Complejidad temporal: O(1) Tiempo constante.
  */
-public class Triangulo extends FiguraGeometrica{
+public class Triángulo extends FiguraGeometrica{
     
     //atributos
     int base;
@@ -11,7 +11,7 @@ public class Triangulo extends FiguraGeometrica{
     
     //constructor
 
-    public Triangulo(int base, int altura, String nombre, String color) {
+    public Triángulo(int base, int altura, String nombre, String color) {
         super(nombre, color);
         this.base = base;
         this.altura = altura;
