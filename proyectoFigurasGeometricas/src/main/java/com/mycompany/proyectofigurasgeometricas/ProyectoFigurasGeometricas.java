@@ -29,7 +29,7 @@ public class ProyectoFigurasGeometricas {
                 System.out.println("Ingrese el radio del circulo");
                 double radio = scan.nextDouble();
 
-                Circulo circulo = new Circulo(radio, figura, color);
+                Círculo circulo = new Círculo(radio, figura, color);
                 System.out.println("El área del circulo es: " + circulo.obtenerArea());
                 System.out.println("El perímetro del circulo es: " + circulo.obtenerPerimetro());
                 break;
@@ -41,7 +41,7 @@ public class ProyectoFigurasGeometricas {
                 System.out.println("Ingrese el valor del lado 2 del rectángulo");
                 int lado2 = scan.nextInt();
 
-                Rectangulo rectangulo = new Rectangulo (figura, color, lado1, lado2);
+                Rectángulo rectangulo = new Rectángulo (figura, color, lado1, lado2);
                 System.out.println("El area del rectángulo es: " + rectangulo.obtenerArea());
                 System.out.println("El perímetro del rectángulo es: " + rectangulo.obtenerPerimetro());
                 break;
@@ -53,7 +53,7 @@ public class ProyectoFigurasGeometricas {
                 System.out.println("Ingrese el valor de la altura del triángulo");
                 int altura = scan.nextInt();
                 
-                Triangulo triangulo = new Triangulo(base,altura, figura, color);
+                Triángulo triangulo = new Triángulo(base,altura, figura, color);
                 System.out.println("El area del triángulo es: " + triangulo.obtenerArea());
                 System.out.println("El perimetro del triángulo es: " + triangulo.obtenerPerimetro());
                 break;
